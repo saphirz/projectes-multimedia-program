@@ -1,0 +1,38 @@
+*{margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+.head{
+    height: 400px; 
+    background-color: white;
+    background-image: url(assets/header.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black; 
+}
+
+ 
+
+.h1{
+    font-family: "ComicSans";
+    color: white; 
+
+}
+.booknow{
+    align-content: center;
+    font-family: 'Castellar';
+    font-weight: 300;
+    width: 300px; 
+    height: 100px; 
+    background: none; 
+    border: white;
+    border: 3px; 
+    color: white; 
+    font-size: 20px; 
+    background: black;
+    border-radius: 3px; 
+    cursor:pointer;
+    
+}
