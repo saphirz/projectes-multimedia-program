@@ -3,36 +3,334 @@
     box-sizing: border-box;
 }
 
-.head{
-    height: 400px; 
-    background-color: white;
-    background-image: url(assets/header.jpg);
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
+.body{
+    height: 1000px; 
     background-color: black; 
 }
-
- 
-
-.h1{
-    font-family: "ComicSans";
-    color: white; 
-
+.header{
+ size: 1000px;
 }
-.booknow{
-    align-content: center;
+
+.boto{
+    background-color: black;
+    text-align: center;
+}
+
+.button{
+    text-align:center;
     font-family: 'Castellar';
     font-weight: 300;
     width: 300px; 
     height: 100px; 
-    background: none; 
     border: white;
-    border: 3px; 
+    border: 6px; 
     color: white; 
-    font-size: 20px; 
+    font-size: 35px; 
     background: black;
-    border-radius: 3px; 
-    cursor:pointer;
+    border-radius: 6px; 
+    cursor:pointer; 
+}
+#gente {
+    background-color: #350201;
+}
+
+#gente h1{
+    background-color:#350201;
+    font-family: 'Gunmetal';
+    color: white; 
+    font-size: 90px; 
+    text-align: center; 
+    padding-top: 5%;
+    padding-bottom: 5%;   
+}
+
+.texto1{
+font-family: 'Adam';
+    word-spacing: 1%;
+    line-height: 150%;
+}
+.cosas-container{
+padding-left: 10%;
+    text-align: justify;
+}
+.titulo{
+    font-family: 'Alleana Script';
+    font-size: 90px;
+    padding-bottom: 5%;
+}
+.cosas{
+    background-color: #350201;
+    display: flex; 
+    padding: 5%;
+    color:white;
+    width: 100%;
+    padding: 0% 20%; 
+}
+
+.texto2{
+    font-family: 'Adam';
+    padding-right: 20%;
+    word-spacing: 1%;
+    line-height: 150%;
+    text-align: justify;
+}
+.cosas-container2{
+
+    text-align: justify;
+}
+.titulo2{
+    font-family: 'Alleana Script';
+    font-size: 90px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.elsa{
+    background-color: #350201;
+    display: flex; 
+    flex-direction: row-reverse;
+    padding: 5%;
+    color:white;
+    width: 100%;
+    padding: 0% 20%; 
     
 }
+.texto3{
+    font-family: 'Adam';
+    word-spacing: 1%;
+    line-height: 150%;
+}
+.cosas-container3{
+padding-left: 10%;
+    text-align: justify;
+}
+.titulo3{
+    font-family: 'Alleana Script';
+    font-size: 90px;
+    padding-bottom: 5%;
+}
+.ginger{
+    background-color: #350201;
+    display: flex; 
+    padding: 5%;
+    color:white;
+    width: 100%;
+    padding: 2% 20%; 
+}
+
+#mapa{
+    padding-left: 26%;
+    background-color: white;
+}
+#mapa h1{
+    background-color: white;
+    font-family: 'Gunmetal';
+    color:black; 
+    font-size: 90px; 
+    text-align: center; 
+    padding-top: 5%;
+       
+}
+
+.texto4{
+    padding-bottom: 3%;
+    font-family: 'Adam';
+    word-spacing: 1%;
+    line-height: 150%;
+}
+.cosas-container4{
+padding-left: 10%;
+    text-align: justify;
+}
+.location img{
+    padding: none;
+
+}
+.location{
+    background-color: white;
+    display: flex; 
+  
+    color: black;
+    width: 100%;
+    padding: 2% 20%; 
+}
+
+.cosas-container4 img{
+    padding-top: 7%;
+}
+
+
+
+
+
+#catering{
+    background-color: white;
+}
+#catering h1{
+    background-color: white;
+    font-family: 'Gunmetal';
+    color:black; 
+    font-size: 90px; 
+    text-align: center; 
+    padding-top: 5%;
+       
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    10% { transform: translateX(0); }
+ 
+    15% { transform: translateX(-100%); }
+    30% { transform: translateX(-100%); }
+ 
+    35% { transform: translateX(-200%); }
+    50% { transform: translateX(-200%); }           
+ 
+    55% { transform: translateX(-300%); }
+    70% { transform: translateX(-300%); }
+ 
+    75% { transform: translateX(-400%); }
+    90% { transform: translateX(-400%); }
+ 
+    95% { transform: translateX(-500%); }
+    100% { transform: translateX(-500%); }
+}
+ 
+* { box-sizing: border-box; }
+ 
+html { scroll-behavior: smooth; }
+ 
+body {
+    font-family: sans-serif;
+}
+ 
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+ 
+.slider {
+    position: relative;
+}
+ 
+.slides {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+ 
+.slide {
+    width: 100vw;
+    flex-shrink: 0;
+    animation-name: slide;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+ 
+.slides:hover .slide {
+    animation-play-state: paused;
+}
+ 
+.slide img {
+    width: 100%;
+    vertical-align: top;
+}
+ 
+.slide a {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+ 
+.caption {
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: 8vw;
+    position: absolute;
+    bottom: 8vw;
+    right: 4vw;                                 
+}
+ 
+.slide:target {
+    animation-name: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 50;
+}
+ 
+.slider-controler {         
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 100;
+}
+ 
+.slider-controler li {
+    margin: 0 0.5rem;
+    display: inline-block;
+    vertical-align: top;
+}
+ 
+.slider-controler a {
+    display: inline-block;
+    vertical-align: top;            
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+ 
+@media only screen and (min-width: 1200px) {
+    .slide {
+        width: 1200px;
+    }
+ 
+    .caption {
+        font-size: 96px;
+        bottom: 96px;
+        right: 50px; 
+    }
+}
+
+#booking{
+    background-color:#350201;
+}
+#booking h1{
+    background-color:#350201;
+    font-family: 'Gunmetal';
+    color: white; 
+    font-size: 90px; 
+    text-align:left; 
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-bottom: 3%;
+       
+}
+
+#formulario{
+    font-family: 'Alan';
+    font-size: 30px;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    background: #350201;
+    color: white;
+    font-family: 'Adam';
+    line-height: 30px;
+   
+}
+
+
+
+
+
+
+
+

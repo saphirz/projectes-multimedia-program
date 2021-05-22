@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+    justify-content: center;
+    display:flex;
+    align-items: center;
+  background-color: #29009d;
+  padding-top: 5%;
+}
+
+.headermenu {
+justify-content: space-around;
+display: flex; 
+  background-color: #f0d789;
+  font-family: "Star Guard";
+  font-size: 24pt;
+  list-style: none;
+  color: black;
+  width: 80%;
+}
+.logo-de-mierda{
+    position: absolute; 
+    top: -4%; 
+    right: 5%; 
+    width: 300px;
+    height: 350px;
+}
+.headermenu a {
+    padding: 10px 0;
+  text-decoration: none;
+  color: black;
+}
+.headermenu a:nth-child(4)
+{
+    padding-right: 50px;
+}
+a:hover {
+  background-color: #f9c21b;
+}
+
+.esports {
+  background-color: #29009d;
+  height: 430px;
+  width: 100%;
+  display:flex; 
+}
+.esports img{
+    position: absolute;
+    top:150px;
+    left: 23%;
+    width: 800px; 
+    height: 400px;
+
+}
+
+.container2 {
+  background-color: #fbbd00;
+  width: 100%;
+  height: 900px;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 5% 15%;
+}
+
+.container2 h1 {
+  font-family: "Star Guard";
+  font-size: 30pt;
+  color: white;
+  justify-content: left;
+  padding: 2% 2%;
+}
+
+.cosas {
+  font-family: "Montserrat";
+  font-size: 12pt;
+  padding: 0% 10%;
+  text-align: left;
+  color: white;
+}
+
+.cosas p {
+  line-height: 160%;
+}
+.container2 img {
+padding-top:60px;
+  width: 400px;
+  height: 600px;
+}
+
+footer {
+  background-color: #29009d;
+  height: 400px;
+  display: flex;
+}
+
+.columna1 {
+  color: white;
+  text-align: left;
+  padding: 8% 10%;
+  font-family: "Montserrat";
+  line-height: 200%;
+}
+
+.columna2 {
+  padding: 8% 0%;
+  color: white;
+  text-align: justify;
+  font-family: "Montserrat";
+  line-height: 160%;
+}
+
+.columna3 {
+  padding-top: 9%;
+  padding-left: 10%;
+  color: white;
+  text-align: justify;
+  font-family: "Montserrat";
+  line-height: 160%;
+}
+
+.container3 {
+  background-color: #fbbd00;
+  width: 100%;
+  height: 690px;
+  display: flex;
+  padding: 0% 20%;
+  padding-top:5%;
+}
+
+.cosas2 {
+  font-family: "Montserrat";
+  font-size: 12pt;
+  padding: 0% 5%;
+  text-align: left;
+  color: white;
+  line-height: 200%;
+}
+.cosas2 h1 {
+  font-family: "Star Guard";
+  font-size: 60pt;
+  color: white;
+}
+
+.cosas p {
+  line-height: 160%;
+}
+
+.cosas2 h4 {
+  position: absolute;
+}
+.cosas3{
+    font-family: 'Montserrat';
+    font-size:12pt;
+    background-color: #fbbd00;
+    width: 100%;
+    height: 290px;
+    display: flex;
+    padding: 0% 22%;
+    color: white;
+    line-height: 200%;
+}
+.container4{
+    background-color: #fbbd00;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    padding: 0% 0%;
+    padding-top:5%;
+}
+.container4 img{
+    display: table-row;
+    padding: 0 170px;
+}
+.texto4{
+   background-color: #fbbd00;
+  display: flex;
+   height: 300px;
+}
+.texto4 h2{
+    background-color: #fbbd00;
+    font-family: 'Star Guard';
+    font-size:30pt;
+    padding-left: 200px;
+    color: white; 
+   
+}
+.container5{
+    background-color: #fbbd00;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    padding: 0% 4%;
+}
+.container5 img{
+    display: table-row;
+    padding: 0 170px;
+    height: 250px;
+    width: 700px;
+}
+
